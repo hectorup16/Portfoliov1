@@ -1,40 +1,27 @@
 import React from 'react';
 
 
+const backendItems = [{ name: "NodeJS", level: "Intermediate"}, { name: "Express", level: "Intermediate"}, { name: "MongoDB", level: "Intermediate"}, { name: "MySQL", level: "Intermediate"}, { name: "Python", level: "Intermediate"}, { name: "Django", level: "Intermediate"} ];
+
 const Backend = () => {
     return (
         <div className="skills__content">
             <h3 className="skills__title">Backend Developer</h3>
 
-
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
-
-                        <i class='bx bx-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">Node js</h3>
-                            <span className="skills__level">Basic</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">MySQL</h3>
-                            <span className="skills__level">Basic</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">FireBase</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">GraphQL</h3>
-                            <span className="skills__level">Basic</span>
-                        </div>
+                        {backendItems.map((item, index) => {
+                            return (
+                                <div className='skills__item' key={index}>
+                                    <i className='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 className="skills__name">{item.name}</h3>
+                                        <span className="skills__level">{item.level}</span>
+                                    </div>
+                                </div>
+                            )
+                        })}       
                     </div>
                 </div>
             </div>

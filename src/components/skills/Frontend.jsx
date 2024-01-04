@@ -1,6 +1,9 @@
 import React from 'react';
 
 
+const frontendItems = [{ name: "HTML", level: "Advanced"}, { name: "CSS", level: "Basic"}, { name: "Javascript", level: "Intermediate"}, { name: "Bootstrap", level: "Intermediate"}, { name: "GIT", level: "Intermediate"}, { name: "React", level: "Intermediate"} ];
+
+
 const Frontend = () => {
     return (
         <div className="skills__content">
@@ -9,42 +12,17 @@ const Frontend = () => {
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i class='bx bx-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">HTML</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">CSS</h3>
-                            <span className="skills__level">Basic</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">Javascript</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">Bootstrap</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">GIT</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-badge-check'></i>
-                            <h3 className="skills__name">React</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
+                        {frontendItems.map((item, index) => {
+                            return (
+                                <div className='skills__item' key={index}>
+                                    <i className='bx bx-badge-check'></i>
+                                    <div>
+                                        <h3 className="skills__name">{item.name}</h3>
+                                        <span className="skills__level">{item.level}</span>
+                                    </div>
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>
             </div>
