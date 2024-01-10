@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const backendItems = [{ name: "NodeJS", level: "Intermediate"}, { name: "Express", level: "Intermediate"}, { name: "MongoDB", level: "Intermediate"}, { name: "MySQL", level: "Intermediate"}, { name: "Python", level: "Intermediate"}, { name: "Django", level: "Intermediate"} ];
+const backendItems = [{ name: "NodeJS", level: "Intermediate" }, { name: "GraphQL", level: "Basic" }, { name: "MySQL", level: "Basic" }, { name: "Python", level: "Basic" }];
 
 const Backend = () => {
     return (
@@ -21,7 +21,7 @@ const Backend = () => {
                                     </div>
                                 </div>
                             )
-                        })}       
+                        })}
                     </div>
                 </div>
             </div>

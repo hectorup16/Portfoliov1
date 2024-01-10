@@ -33,13 +33,8 @@ export const projectsData = [
         category: 'app',
     },
 
-    {
-        id: 5,
-        image: Work5,
-        title: 'Web design',
-        category: 'web',
-    }
 ];
+
 
 export const projectsNav = [
     {

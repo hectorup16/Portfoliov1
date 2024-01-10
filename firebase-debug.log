@@ -1,0 +1,42 @@
+[debug] [2024-01-10T20:56:32.324Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T20:56:32.327Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\josef\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-10T20:56:32.327Z] CLI Version:   13.0.3
+[debug] [2024-01-10T20:56:32.328Z] Platform:      win32
+[debug] [2024-01-10T20:56:32.328Z] Node Version:  v20.10.0
+[debug] [2024-01-10T20:56:32.328Z] Time:          Wed Jan 10 2024 16:56:32 GMT-0400 (hora estándar del Atlántico)
+[debug] [2024-01-10T20:56:32.328Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T20:56:32.335Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T20:56:32.335Z] > authorizing via signed-in user (hectorup16@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\josef\Desktop\personal\cvpg
+
+[debug] [2024-01-10T20:57:11.633Z] ----------------------------------------------------------------------
+[debug] [2024-01-10T20:57:11.637Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\josef\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-10T20:57:11.638Z] CLI Version:   13.0.3
+[debug] [2024-01-10T20:57:11.638Z] Platform:      win32
+[debug] [2024-01-10T20:57:11.638Z] Node Version:  v20.10.0
+[debug] [2024-01-10T20:57:11.638Z] Time:          Wed Jan 10 2024 16:57:11 GMT-0400 (hora estándar del Atlántico)
+[debug] [2024-01-10T20:57:11.638Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-10T20:57:11.649Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-10T20:57:11.650Z] > authorizing via signed-in user (hectorup16@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\josef\Desktop\personal\cvpg
+
