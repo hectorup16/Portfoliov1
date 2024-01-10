@@ -6,23 +6,23 @@ export const Data = [
     {
         id: 1,
         image: Image1,
-        title: "Jhon Doe",
+        title: "Geraldo Silverio",
         description:
-            "A really good job, all aspect of the project were followed step bye step and with good result.",
+            "In addition to his technical skills, I would highlight his work ethic and professionalism.They met agreed upon deadlines and demonstrated a genuine commitment.",
     },
     {
         id: 2,
         image: Image2,
-        title: "Harry Clinton",
+        title: "Angel Cuevas",
         description:
             "A really good job, all aspect of the project were followed step bye step and with good result.",
     },
     {
         id: 3,
         image: Image3,
-        title: "Sara Cill",
+        title: "Alexis Molina",
         description:
-            "A really good job, all aspect of the project were followed step bye step and with good result.",
+            "I would recommend without hesitation to anyone looking for high quality software development services.",
     }
 ];
 
